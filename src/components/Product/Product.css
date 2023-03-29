@@ -1,0 +1,30 @@
+.product img{
+    height: 286px;
+    width: 286px;
+    margin: 7px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+.product{
+    width: 300px;
+    height: 550px;
+    border: 2px solid #95a0a7;
+    border-radius: 8px;
+    position: relative;
+}
+
+.product-info{
+    margin: 12px;
+    font-weight: 700;
+}
+.btn{
+    background-color: sandybrown;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    
+}
+.btn:hover{
+    background-color: orange;
+}
