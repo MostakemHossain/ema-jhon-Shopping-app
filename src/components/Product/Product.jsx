@@ -16,7 +16,12 @@ const Product = (props) => {
             <p>manufactures:{seller}</p>
             <p>rating:{ratings}</p>
             </div>
-            <button onClick={()=>handleButton(props.product)} className='btn'>Add to cart <FontAwesomeIcon icon={faShoppingCart} />
+            <button 
+            onClick={()=>handleButton(props.product)}
+             className='btn'
+             >Add to cart 
+             
+             <FontAwesomeIcon icon={faShoppingCart} />
 </button>
         </div>
         
