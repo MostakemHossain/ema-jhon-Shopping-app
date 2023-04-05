@@ -8,3 +8,10 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
 }
+.btn-proced{
+    margin-top: 10px;
+    width: 100%;
+    background-color: yellow;
+    font-weight: 700;
+    border-radius: 20px;
+}

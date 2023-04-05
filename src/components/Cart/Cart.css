@@ -4,3 +4,21 @@
     position: sticky;
     top: 0;
 }
+.clearCart{
+    width: 90%;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.clearCart button{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(246, 240, 240);
+}
