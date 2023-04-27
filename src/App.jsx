@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header/Header'
 import Shop from './components/Shop/Shop'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [count, setCount] = useState(0)
